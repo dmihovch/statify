@@ -1,4 +1,4 @@
-#!/home/dmih/Projects/statify/data-collection/venv/bin/python3
+#!/Users/danmihovch/Projects/statify/data-collection/venv/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys
