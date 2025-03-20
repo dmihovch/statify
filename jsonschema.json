@@ -1,0 +1,19 @@
+{
+    "top_tracks" : [
+        {
+            "track_name" : "",
+            "artists" : [""],
+            "popularity": 0,
+            "image": ""
+        }
+    ],
+    "top_artists": [
+        {
+            "name": "",
+            "popularity" : 0,
+            "followers": 0,
+            "genres": [""],
+            "image" : ""
+        }
+    ]
+}
