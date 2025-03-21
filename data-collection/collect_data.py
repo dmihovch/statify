@@ -41,17 +41,10 @@ def collect_data_and_format():
         
         track_entry = {
             "track_name" : track['name'],
-            "artists": [],
+            "artists": [artist['name'] for artist in track['artists']],
             "popularity": track['popularity'],
             "image": track['album']['images'][0]['url']
         }
-        
-        artists_list = []
-        
-        for artist in track['artists']:
-            artists_list.append(artist['name'])
-        
-        track_entry["artists"] = artists_list
         
         json_obj["top_tracks"].append(track_entry)
 
