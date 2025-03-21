@@ -5,3 +5,4 @@ data-collection/.cache
 .venv
 .cache
 data-collection/__pycache__
+database/*.db
