@@ -1,6 +1,7 @@
 data-collection/.env
-data-collection/venv
-data-collection/venv/
+data-collection/.venv/
+data-collection/.venv
 data-collection/.cache
 .venv
 .cache
+data-collection/__pycache__
