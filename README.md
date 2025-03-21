@@ -9,3 +9,10 @@
 ### issues to address:
 
 1. db tracking
+
+
+### future issues to address:
+
+1. Be able to run script in background without entering URL
+2. Host db somewhere so data doesn't get lost and is cross-platform
+3. hosting and servers in general, if I want to make this an actual website
