@@ -7,6 +7,7 @@ def main():
     json_data_obj = collect_data_and_format()
     
     ret_code = store_stats_in_db(json_data_obj)
+    print(ret_code)
     return ret_code
 
 if __name__ == "__main__":
