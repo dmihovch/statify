@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
@@ -8,13 +8,13 @@ import ArtistStats from './pages/ArtistStats'
 function App() {
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}/>
-        <Route path="/artists" element={<ArtistStats />}/>
+        <Route path="/artist-stats" element={<ArtistStats />}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
