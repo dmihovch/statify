@@ -6,3 +6,4 @@ data-collection/.cache
 .cache
 data-collection/__pycache__
 database/*.db
+**/.env
