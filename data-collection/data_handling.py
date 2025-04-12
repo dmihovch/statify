@@ -1,8 +1,9 @@
 import sqlite3 as sql
 import json
+import os
 
 def store_stats_in_db(stats_obj_json):
-    
+    db_path = os.getenv("SPOTIFY_DB_PATH")
     
     if stats_obj_json == None:
         return 1
@@ -10,7 +11,7 @@ def store_stats_in_db(stats_obj_json):
     ret_code = 0
     conn = None
     try:
-        conn = sql.connect("../database/spotify_stats.db")
+        conn = sql.connect(db_path)
         cursor = conn.cursor()
         
         cursor.execute("""

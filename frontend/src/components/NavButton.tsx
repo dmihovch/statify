@@ -13,7 +13,7 @@ function NavButton({ path, text }: NavButtonProps) {
     <Button
       className="nav-button"
       onClick={() => {
-        nav(path);
+        nav(path.startsWith("/") ? path : `/${path}`);
       }}
     >
       {text}
